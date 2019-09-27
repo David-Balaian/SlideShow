@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./slide.css">
+</head>
+
+<body>
+    <header>
+        <h1>SlideShow</h1>
+    </header>
+    <div id="slidecontent">
+        <img id="pic"
+            src="https://images.unsplash.com/photo-1505699261378-c372af38134c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&w=1000&q=80"
+            alt="slide image" width="600px" height="400px">
+        <div>
+            <button id="pervious" onclick="pervious()"><i class="fas fa-backward"></i></button>
+            <button id="play" onclick="play()"><i class="fas fa-play"></i></button>
+            <button id="next" onclick="next()"><i class="fas fa-forward"></i></button>
+        </div>
+        <div id="allimages">
+
+        </div>
+    </div>
+    <script src="./slide.js"></script>
+</body>
+
+</html>
